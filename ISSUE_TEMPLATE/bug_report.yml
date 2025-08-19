@@ -1,0 +1,11 @@
+name: "Bug report"
+description: "Found something broken? Tell us."
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes: { label: "What happened?", description: "Steps, expected vs actual" }
+    validations: { required: true }
+  - type: textarea
+    id: logs
+    attributes: { label: "Logs / screenshots" }
